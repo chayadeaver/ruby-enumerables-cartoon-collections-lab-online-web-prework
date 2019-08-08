@@ -33,9 +33,9 @@ def find_the_cheese(array)
   while i < array.length do
     if array.include?(cheese_types[i])
       return array[0]
-      i+=1 
     else
-      nil 
+      i+=1  
     end
   end 
+  return nil 
 end
